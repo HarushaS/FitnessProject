@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+    </head>
+    <header>
+        <h1 style="text-align:center; color:purple; font-style: italic; font-size: 40px;">PURPLE FITNESS</h1>
+    </header>
+    <style>
+         body{
+            background-color:rgb(221, 186, 213);
+            margin:5px;
+            padding: 0px;
+            padding-inline: 12px;
+        }
+        .mid{
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color:rgb(197, 40, 197);
+            padding:12px;
+            text-decoration: none;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            text-decoration: underline;
+            color:black;
+        }
+        .navbar li ul{
+            display: none;
+            position:absolute;
+            background-color: rgb(179, 150, 179);
+            padding: 10px;
+            border-radius: 0px 0px 4px 4px;
+        }
+        
+        .navbar li ul li {
+            width:90px;
+            border-radius: 4px ;
+        }
+        .navbar li:hover ul{
+            display:block;
+        }
+    </style>
+    <body>
+        <header class="header">
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="gymproject.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="galleryproject.html">Gallery</a></li>
+                    <li><a href="slotsproject.html">Slots</a></li>
+                    <li><a href="#" class="active">Contact Us</a>
+                        <ul>
+                            <li><a href="#">Trainers</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <h1 style="color:rgb(180, 64, 180); font-style: italic;font-size:30px;">CONTACT US</h1>
+        <h3>Website</h3>
+        <p>https://purplefitness.com</p>
+        <h3>Address</h3>
+        <p>#1000<br>5th sector, 15th cross,Caramel Layout<br>Bangalore<br>Karnataka</p>
+        <h3>Contact Number</h3>
+        <p>56789011<br>56789012<br>56789013</p>
+        <h3>Email</h3><p>purplefitness@gmail.com</p>
+        <script>
+            function feedback(){
+                alert("Feedback Submitted");
+            }
+        </script>
+        <form>
+        <lable for="des">Feedback</lable>
+        <textarea rows="5" cols="40"></textarea>
+        <input type="submit" onclick="feedback()" value="Submit"/>
+        </form>
+        <footer>
+            <p>Copyright © 2021,  Purple fitness . All rights reserve</p>
+        </footer>    
+    
+    </body>
+        </html>
